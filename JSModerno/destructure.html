@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            const array =['marcelo', 'igor', 'pedro','carlos','ester'];
+            
+            /* a,b correspondem aos index [0][1] do meu array, o resto esta amarzenado no c, 
+            ou seja, para voce poder armazenar  restante do vetor utiliza-se a sintx ...c,
+            com isso o c passa ter index corespondentes ex.
+            
+            alert(c[0]) este alerta ira mostrar o nome 'pedro ', porque ele esta no index [0] da letra c*/
+
+            const [a,b,...c] = array;
+
+            alert(c[0]);
+        </script>
+    </body>
+</html>

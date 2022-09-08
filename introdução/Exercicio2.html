@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            var nome = prompt("Digite seu nome")
+             var nascimento = prompt("digite o ano do seu nascimento");
+             if(nascimento >= 2022  ){
+                alert("digite um ano de nascimento valido");
+                var nasciemnto = prompt("digite o ano do seu nascimento");
+            }
+            var anoAtual = prompt("digite o ano atual");
+
+            
+            function calculoDeIdade(nascimento, anoAtual){
+            
+            var aniversario = anoAtual - nascimento;
+            
+            return aniversario;
+           }
+
+           console.log(nome + " tem " + calculoDeIdade(nascimento,anoAtual) + " Anos de idade");199
+        </script>
+    </body>
+</html>
